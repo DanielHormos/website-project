@@ -1,0 +1,22 @@
+.body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0.45rem;
+  font-size: xx-large;
+}
+
+.grid-left {
+  text-align: left;
+}
+
+.grid-right {
+  text-align: right;
+}
+
+.image {
+  width: 100%;
+}
