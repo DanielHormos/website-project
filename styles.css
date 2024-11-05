@@ -1,5 +1,6 @@
 .body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #8aaae54c;
 }
 
 .header {
@@ -11,12 +12,34 @@
 
 .grid-left {
   text-align: left;
+  padding-left: 1rem;
 }
 
 .grid-right {
   text-align: right;
+  padding-right: 1rem;
+}
+
+.section {
+  display: grid;
 }
 
 .image {
   width: 100%;
+  border-radius: 10px;
+}
+
+.article {
+  border-radius: 10px;
+  background-color: #ffffff52;
+  box-shadow: 3px 4px #8aaae53b;
+  margin-bottom: 1rem;
+}
+
+.content {
+  padding: 0 2rem 1rem 1rem;
+}
+
+.p {
+  color: gray;
 }
